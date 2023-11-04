@@ -7,6 +7,7 @@ const CartItem = ({ cartItem }) => {
   const removeItemFromTheCart = () => {
     dispatch(removeItem({ cartID }));
   };
+  // commit
   const handleAmount = (e) => {
     dispatch(editItem({ cartID, amount: parseInt(e.target.value) }));
   };
