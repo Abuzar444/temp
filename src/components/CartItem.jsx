@@ -1,4 +1,4 @@
-import { formatPrice, generateAmountOptions } from "../utils";
+import { formatPrice, generateAmountOptions } from "../Utils";
 import { removeItem, editItem } from "../features/cart/cartSlice";
 import { useDispatch } from "react-redux";
 const CartItem = ({ cartItem }) => {
